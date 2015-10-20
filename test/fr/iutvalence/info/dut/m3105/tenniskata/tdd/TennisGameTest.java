@@ -56,10 +56,8 @@ public class TennisGameTest
 	public void thirtyLoveTest()
 	{
 		TennisGame tennisGame  = new TennisGame();
-		tennisGame.adversaireMetUnPoint();
 		tennisGame.serveurMetUnPoint();
-		tennisGame.serveurMetUnPoint();
-		
+		tennisGame.serveurMetUnPoint();		
 		// vérifier les assertions
 		assertEquals(tennisGame.getScore(), "Thirty-Love");
 		

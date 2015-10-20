@@ -17,6 +17,7 @@ public class TennisGame
 		else if(this.ScoreServeur < 2 && this.ScoreAdversaire < 1) return "Fifteen-Love";
 		else if(this.ScoreServeur < 1 && this.ScoreAdversaire < 2) return "Love-Fifteen";
 		else if(this.ScoreServeur < 2 && this.ScoreAdversaire < 2) return "Fifteen-All";
+		else if(this.ScoreServeur < 3 && this.ScoreAdversaire < 1) return "Thirty-Love";
 		return "null";
 	}
 	
