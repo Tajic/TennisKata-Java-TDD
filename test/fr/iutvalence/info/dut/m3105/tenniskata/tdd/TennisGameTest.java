@@ -40,5 +40,16 @@ public class TennisGameTest
 		
 	}
 	
+	@Test
+	public void fifteenAllTest()
+	{
+		TennisGame tennisGame  = new TennisGame();
+		tennisGame.adversaireMetUnPoint();
+		tennisGame.serveurMetUnPoint();
+		
+		// vérifier les assertions
+		assertEquals(tennisGame.getScore(), "Fifteen-All");
+		
+	}
 	
 }
