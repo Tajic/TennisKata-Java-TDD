@@ -22,7 +22,7 @@ public class TennisGameTest
 	public void fifteenLoveTest()
 	{
 		TennisGame tennisGame  = new TennisGame();
-		serveurMetUnPoint();
+		tennisGame.serveurMetUnPoint();
 		
 		// vérifier les assertions
 		assertEquals(tennisGame.serveurMetUnPoint(), "Fifteen-Love");

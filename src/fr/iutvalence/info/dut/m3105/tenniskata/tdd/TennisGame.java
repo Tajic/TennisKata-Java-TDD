@@ -6,5 +6,10 @@ public class TennisGame
 	{
 		return "Love-All";
 	}
-
+	
+	public String serveurMetUnPoint()
+	{
+		return "Fifteen-Love";
+	}
+	
 }
