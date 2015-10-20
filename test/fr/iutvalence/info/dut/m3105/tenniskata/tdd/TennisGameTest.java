@@ -14,7 +14,7 @@ public class TennisGameTest
 		TennisGame tennisGame  = new TennisGame();
 		
 		// vérifier les assertions
-		assertEquals(tennisGame.getScore(), "Love-All");
+		assertEquals(tennisGame.getInitScore(), "Love-All");
 		
 	}
 	
