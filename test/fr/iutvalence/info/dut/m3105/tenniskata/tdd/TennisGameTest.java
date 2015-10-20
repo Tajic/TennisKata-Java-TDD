@@ -5,13 +5,14 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class TennisGameTest
-{
+{	
 	@Test
 	public void loveAllTest()
 	{
-		Assert.fail("...");
+		// se mettre dans les conditions du test
+		TennisGame tennisGame  = new TennisGame();
+		
+		// vérifier les assertions
+		assertEquals(tennisGame.getScore(), "Love-All");
 	}
-	
-	
-
 }
