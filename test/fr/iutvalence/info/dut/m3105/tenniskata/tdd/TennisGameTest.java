@@ -52,4 +52,17 @@ public class TennisGameTest
 		
 	}
 	
+	@Test
+	public void thirtyLoveTest()
+	{
+		TennisGame tennisGame  = new TennisGame();
+		tennisGame.adversaireMetUnPoint();
+		tennisGame.serveurMetUnPoint();
+		tennisGame.serveurMetUnPoint();
+		
+		// vérifier les assertions
+		assertEquals(tennisGame.getScore(), "Thirty-Love");
+		
+	}
+	
 }
