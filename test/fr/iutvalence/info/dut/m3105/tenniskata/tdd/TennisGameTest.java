@@ -7,9 +7,11 @@ import org.junit.Test;
 public class TennisGameTest
 {
 	@Test
-	public void aSimpleBeginningTest()
+	public void loveAllTest()
 	{
 		Assert.fail("...");
 	}
+	
+	
 
 }
