@@ -14,7 +14,7 @@ public class TennisGameTest
 		TennisGame tennisGame  = new TennisGame();
 		
 		// vérifier les assertions
-		assertEquals(tennisGame.getInitScore(), "Love-All");
+		assertEquals(tennisGame.getScore(), "Love-All");
 		
 	}
 	
@@ -25,7 +25,7 @@ public class TennisGameTest
 		tennisGame.serveurMetUnPoint();
 		
 		// vérifier les assertions
-		assertEquals(tennisGame.serveurMetUnPoint(), "Fifteen-Love");
+		assertEquals(tennisGame.getScore(), "Fifteen-Love");
 		
 	}
 	
@@ -36,7 +36,7 @@ public class TennisGameTest
 		tennisGame.adversaireMetUnPoint();
 		
 		// vérifier les assertions
-		assertEquals(tennisGame.adversaireMetUnPoint(), "Love-Fifteen");
+		assertEquals(tennisGame.getScore(), "Love-Fifteen");
 		
 	}
 	
