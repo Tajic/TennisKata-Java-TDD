@@ -12,4 +12,10 @@ public class TennisGame
 		return "Fifteen-Love";
 	}
 	
+	public String adversaireMetUnPoint()
+	{
+		return "Love-Fifteen";
+	}
+	
+	
 }
