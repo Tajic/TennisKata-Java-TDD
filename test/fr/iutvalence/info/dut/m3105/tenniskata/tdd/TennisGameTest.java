@@ -29,5 +29,16 @@ public class TennisGameTest
 		
 	}
 	
+	@Test
+	public void loveFifteenTest()
+	{
+		TennisGame tennisGame  = new TennisGame();
+		tennisGame.adversaireMetUnPoint();
+		
+		// vérifier les assertions
+		assertEquals(tennisGame.adversaireMetUnPoint(), "Love-Fifteen");
+		
+	}
+	
 	
 }
